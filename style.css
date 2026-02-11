@@ -1,7 +1,9 @@
 body{
   background-color:grey;
 }
-
+a{ 
+  white;
+ }  
 p{
   pink;
   text-align : center;
