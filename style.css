@@ -1,5 +1,5 @@
 body{
-  background-color:grey;
+  background-color:navy;
 }
 a{ 
   color:white;
@@ -12,6 +12,7 @@ p{
 h1{
   color:white;
     text-align : center;
+    font-size: 106px; 
 }
 
 h2{
