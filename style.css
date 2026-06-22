@@ -24,14 +24,18 @@ br{
 }
 img{ align : left;
    }
+
 .conteneur-images {
     display: flex;
-    justify-content: space-between; /* gauche et droite */
-    align-items: center;            /* alignement vertical */
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 
 .conteneur-images img {
-    max-width: 45%;
+    width: 200px; 
     height: auto;
 }
+
