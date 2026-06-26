@@ -3,7 +3,7 @@ body{
 }
 a{ 
   color:white;
-  font-size: 6px
+  
     text-align : center;
  }  
 p{
@@ -19,6 +19,7 @@ h1{
 h2{
   color:white;
     text-align : center;
+  font-size: 6px;
 }
 br{ 
   color:white;
