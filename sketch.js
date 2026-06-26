@@ -1,13 +1,12 @@
+function setup() {
+  createCanvas(620, 420);
+  background(255);
+}
 
 let x =100;
 let y = 100;
 let taille = 300;
 let taille2 = 100;
-
-function setup() {
-  createCanvas(620, 420);
-  background(255);
-}
 
 function draw() {
   if (mouseIsPressed) {
