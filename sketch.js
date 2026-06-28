@@ -1,12 +1,12 @@
 function setup() {
-  createCanvas(620, 420);
+  createCanvas(620, 400);
   background(255);
 }
 
 let x =100;
 let y = 100;
-let taille = 300;
-let taille2 = 100;
+let taille = 620;
+let taille2 = 400;
 
 function draw() {
   if (
