@@ -9,17 +9,18 @@ let taille = 300;
 let taille2 = 100;
 
 function draw() {
-  if (mouseIsPressed) {
-    mouseX > x &&
-    mouseX < x + taille &&
-    mouseY > y &&
-    mouseY < y + taille2
-    fill(0);
-    stroke(0);
-    strokeWeight(5);
-    strokeCap(ROUND); // extrémités arrondies
-    line(pmouseX, pmouseY, mouseX, mouseY);
+  ifif (
+  mouseIsPressed &&
+  mouseX > x &&
+  mouseX < x + taille &&
+  mouseY > y &&
+  mouseY < y + taille2
+) {
+  fill(0);
+  stroke(0);
+  strokeWeight(5);
+  strokeCap(ROUND);
+  line(pmouseX, pmouseY, mouseX, mouseY);
+}
   }
-}
-     
-}
+
