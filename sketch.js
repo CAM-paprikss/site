@@ -9,7 +9,7 @@ let taille = 300;
 let taille2 = 100;
 
 function draw() {
-  ifif (
+  if (
   mouseIsPressed &&
   mouseX > x &&
   mouseX < x + taille &&
