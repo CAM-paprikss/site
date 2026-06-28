@@ -42,7 +42,8 @@ img {
   margin: 0 auto;
 }
 
-canvas {
-  display: block;
-  margin: 0 auto;
+canvas-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
 }
