@@ -43,6 +43,7 @@ img {
   margin: 0 auto;
 }
 
-script { 
-  align-items:center;
+canvas {
+  display: block;
+  margin: 0 auto;
 }
