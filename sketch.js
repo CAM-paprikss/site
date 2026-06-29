@@ -1,4 +1,4 @@
-function setup() { let canvas = createCanvas(600, 350);  background(255);
+function setup() { let canvas = createCanvas(600, 300);  background(255);
     canvas.parent("canvas-container");
 }
 
@@ -6,7 +6,7 @@ function setup() { let canvas = createCanvas(600, 350);  background(255);
 let x =0;
 let y = 0;
 let taille = 600;
-let taille2 = 350;
+let taille2 = 300;
 
 function draw() {
   if (
