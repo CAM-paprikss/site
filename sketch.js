@@ -1,4 +1,4 @@
-function setup() { let canvas = createCanvas(900, 500);  background(255);
+function setup() { let canvas = createCanvas(620, 400);  background(255);
     canvas.parent("canvas-container");
 }
 
