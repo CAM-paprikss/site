@@ -42,6 +42,9 @@ img {
   margin: 0 auto;
 }
 
-canvas-container {
-   align-items: center;
+#canvas-container {
+    display: flex;
+    justify-content: center; /* centre horizontalement */
+    align-items: center;     /* centre verticalement si besoin */
+    width: 100%;
 }
